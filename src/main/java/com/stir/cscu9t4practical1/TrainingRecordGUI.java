@@ -192,7 +192,7 @@ public class TrainingRecordGUI extends JFrame implements ActionListener {
         	e = new SwimEntry(n, d, m, y, h, mm, s, km, vn);
         	}
     	else if (!sets.getText().isEmpty()) { 
-    		e = new Sprint(n, d, m, y, h, mm, s, km, st, rt);
+    		e = new SprintEntry(n, d, m, y, h, mm, s, km, st, rt);
     		}
     	else {
     		e = new Entry(n, d, m, y, h, mm, s, km);

@@ -149,7 +149,7 @@ public class SprintEntryTest {
      */
     @Test
     public void testGetRecovery() {
-        System.out.println("getRepetitions");
+        System.out.println("getRecovery");
         Entry instance = new SprintEntry("Alice", 1, 2, 2003, 0, 16, 7, 300, 4, 2);
         int expResults = 2;
         int result = instance.getRecovery();

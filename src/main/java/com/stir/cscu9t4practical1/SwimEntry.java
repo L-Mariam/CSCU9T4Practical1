@@ -8,7 +8,7 @@ public class SwimEntry extends Entry {
 		venue = vn;	
 	}
 
-	public String getVenue() {
+	public String getWhere() {
 		return venue;
 	}
 
@@ -16,7 +16,7 @@ public class SwimEntry extends Entry {
     public String getEntry(){
 	 String result = getName()+" swam " + getDistance() + " km in "
              +getHour()+":"+getMin()+":"+ getSec() + " on "
-             +getDay()+"/"+getMonth()+"/"+getYear()+" in the "+getVenue()+".\n";
+             +getDay()+"/"+getMonth()+"/"+getYear()+" in the "+getWhere()+".\n";
     return result;
 	}
 
